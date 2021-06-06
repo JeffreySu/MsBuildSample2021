@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>34f86f9c-8d3a-4c3e-a803-0051ec4df51b</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
+    <PackageReference Include="Senparc.Weixin.Cache.CsRedis" Version="0.3.100.1-preview2" />
+    <PackageReference Include="Senparc.Weixin.MP.Middleware" Version="0.3.100.2-preview2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+
+</Project>

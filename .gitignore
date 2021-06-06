@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs
+/SampleForBuild/.vs/SampleForBuild
+/SampleForBuild/App_Data/SenparcTraceLog
+/SampleForBuild/App_Data/WeChat_OfficialAccount/2021-06-06
+/SampleForBuild/bin
+/SampleForBuild/obj
+*.user
