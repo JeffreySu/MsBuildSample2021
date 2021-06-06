@@ -31,8 +31,8 @@ var registerService =
     app.UseSenparcGlobal(app.Environment, senparcSetting, g =>
     {
         //使用配置好的Redis缓存
-        Senparc.CO2NET.Cache.CsRedis.Register.SetConfigurationOption(senparcSetting.Cache_Redis_Configuration);
-        Senparc.CO2NET.Cache.CsRedis.Register.UseKeyValueRedisNow();
+        //Senparc.CO2NET.Cache.CsRedis.Register.SetConfigurationOption(senparcSetting.Cache_Redis_Configuration);
+        //Senparc.CO2NET.Cache.CsRedis.Register.UseKeyValueRedisNow();
     }, true)
        .UseSenparcWeixin(senparcWeixinSetting, weixinRegister => weixinRegister.RegisterMpAccount(senparcWeixinSetting));
 
