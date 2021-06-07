@@ -9,3 +9,6 @@
 /SampleForBuild/bin
 /SampleForBuild/obj
 *.user
+/DotNet6/.vs/DotNet6
+/DotNet6/bin/Debug/net6.0
+/DotNet6/obj
