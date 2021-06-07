@@ -9,6 +9,9 @@
 /SampleForBuild/bin
 /SampleForBuild/obj
 *.user
-/DotNet6/.vs/DotNet6
-/DotNet6/bin/Debug/net6.0
-/DotNet6/obj
+.vs/
+bin/
+obj/
+/SenparcTraceLog
+/DeepDotNet6/WeixinSample/App_Data/SenparcTraceLog
+/DeepDotNet6/WeixinSample/App_Data/WeChat_OfficialAccount/2021-06-05

@@ -1,0 +1,15 @@
+﻿global using Microsoft.AspNetCore.Builder;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Options;
+global using Senparc.CO2NET;
+global using Senparc.CO2NET.AspNet;
+global using Senparc.Weixin;
+global using Senparc.Weixin.Entities;
+global using Senparc.Weixin.MP;
+global using Senparc.Weixin.MP.MessageHandlers.Middleware;
+global using Senparc.Weixin.RegisterServices;
+global using System;
+global using WeixinSample;
+global using System.IO;
+global using System.Threading.Tasks;

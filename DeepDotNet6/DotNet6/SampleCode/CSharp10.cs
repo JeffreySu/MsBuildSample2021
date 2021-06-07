@@ -1,20 +1,29 @@
-﻿using System;
+﻿//namespace DotNet6;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.Extensions.Hosting;
+global using System;
 
 namespace DotNet6
 {
-    public class CSharp10
+    public record struct Person
     {
-    }
-
-    public record /*struct*/ Person
-    {
-        public string FirstName { get; init; }
-        public string LastName { get; init; }
+        public /*required*/ string FirstName { get; init; }
+        public /*required*/ string LastName { get; init; }
 
         public string ShowMyName() => $"My name is {FirstName} {LastName}.";
-
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 // for Program.cs
 //app.MapGet("/Name", (Func<string>)(() =>
