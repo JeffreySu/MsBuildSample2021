@@ -1,5 +1,8 @@
 # MsBuildSample2021
-微软 20210605 Build Mini &amp; watching day
+微软 20210605 Build Mini &amp; watching day （2021年6月5日 @ 上海）
+
+
+.NET 6.0 和工作坊基础项目源码及 PPT
 
 ## 文件夹说明
 文件夹/文件 | 说明
